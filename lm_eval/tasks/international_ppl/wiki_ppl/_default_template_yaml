@@ -2,9 +2,8 @@ group:
   - international_wiki_ppl
 dataset_path: wikimedia/wikipedia
 output_type: loglikelihood_rolling
-class: !function task.WikiPerplexityTask
-fewshot_split: train
-validation_split: train
+fewshot_split: validation
+validation_split: validation
 num_fewshot: 0
 doc_to_text: ""
 doc_to_target: "{{text}}"

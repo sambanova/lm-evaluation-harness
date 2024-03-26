@@ -2,7 +2,6 @@ group:
   - international_mc4_ppl
 dataset_path: mc4
 output_type: loglikelihood_rolling
-class: !function task.Mc4PerplexityTask
 fewshot_split: validation
 validation_split: validation
 test_split: 'validation'

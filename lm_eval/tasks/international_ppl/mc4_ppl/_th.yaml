@@ -1,0 +1,3 @@
+"dataset_path": "/import/ml-sc-scratch6/zoltanc/perplexity_eval_datasets/mc4_downloaded/th"
+"include": "_default_template_yaml"
+"task": "mc4_ppl_th"

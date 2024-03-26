@@ -29,7 +29,7 @@ if __name__ == "__main__":
         yaml_dict = {
             "include": base_yaml_name,
             "task": f"mc4_ppl_{lang}",
-            "dataset_name": f"{lang}"
+            "dataset_path": f"/import/ml-sc-scratch6/zoltanc/perplexity_eval_datasets/mc4_downloaded/{lang}"
         }
 
         file_save_path = args.save_prefix_path + f"_{lang}.yaml"

@@ -29,7 +29,7 @@ if __name__ == "__main__":
         yaml_dict = {
             "include": base_yaml_name,
             "task": f"wiki_ppl_{lang}",
-            "dataset_name": f"{lang}"
+            "dataset_path": f"/scratch/zoltanc/eval_2/lm-evaluation-harness/lm_eval/tasks/international_ppl/wiki_ppl/{lang}"
         }
 
         file_save_path = args.save_prefix_path + f"_{lang}.yaml"
