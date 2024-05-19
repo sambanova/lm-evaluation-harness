@@ -1,0 +1,3 @@
+"dataset_path": "/scratch/zoltanc/eval_2/lm-evaluation-harness/lm_eval/tasks/international_ppl/wiki_ppl/20231101.os"
+"include": "_default_template_yaml"
+"task": "wiki_ppl_20231101.os"
